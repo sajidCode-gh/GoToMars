@@ -1,0 +1,31 @@
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(224, 191, 146, 0.404);
+  top: 2rem;
+  right: 1rem;
+  display: grid;
+  place-content: center;
+  box-shadow: 0px 0px 23px 3px rgb(224, 191, 146);
+  transition: all 200ms ease;
+}
+
+.cursor-circle {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(238, 220, 185);
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
