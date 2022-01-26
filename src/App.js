@@ -15,7 +15,7 @@ function App() {
         <FollowCursor />
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="GoToMars" element={<Home />} />
           <Route path="flights" element={<Flights />} />
           <Route path="bookATrip" element={<BookATrip />} />
         </Routes>

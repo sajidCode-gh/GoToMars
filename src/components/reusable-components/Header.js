@@ -27,7 +27,7 @@ export const Header = () => {
         <nav className={menu ? "active" : ""}>
           <ul className="nav-list">
             <li className="list-item">
-              <NavLink to="/">01 HOME</NavLink>
+              <NavLink to="GoToMars">01 HOME</NavLink>
             </li>
             <li className="list-item">
               <NavLink to="/flights">02 FLIGHT</NavLink>
