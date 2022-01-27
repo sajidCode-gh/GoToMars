@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { Home } from "./components/Home";
 import { Flights } from "./components/Flights";
@@ -9,6 +9,8 @@ import { Header } from "./components/reusable-components/Header";
 import FollowCursor from "./components/reusable-components/FollowCursor";
 
 function App() {
+  const [animationPage, setAnimationPage] = useState();
+
   return (
     <div className="wrapper">
       <BrowserRouter>

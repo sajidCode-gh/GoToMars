@@ -12,7 +12,6 @@ const FollowCursor = () => {
     };
   }, [cursorMove]);
 
-  console.log(cursorMove);
   return (
     <div
       className="cursor"

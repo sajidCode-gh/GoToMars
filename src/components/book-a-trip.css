@@ -1,0 +1,92 @@
+.book-a-trip {
+  background: url("../imgs/bookFlight.jpg") center center no-repeat fixed;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: grid;
+  place-content: center;
+}
+
+.register {
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.603);
+  display: grid;
+  place-content: center;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+}
+
+.register form {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 3rem;
+}
+
+.register input {
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--clr-white);
+  color: var(--clr-white);
+}
+
+.register input[type="number"]::-webkit-inner-spin-button,
+.register input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  opacity: 0;
+}
+
+.register div {
+  position: relative;
+}
+
+.register label {
+  transition: all 200ms ease-in-out;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  color: var(--clr-white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 0;
+}
+
+.register div.active label {
+  bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.335);
+}
+
+.check-human {
+  display: flex;
+  gap: 10px;
+}
+
+.check-human input {
+  width: max-content;
+}
+
+.check-human span {
+  flex-grow: 1;
+  color: var(--clr-white);
+  font-size: 0.8rem;
+}
+
+.register-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.submitted {
+  color: rgb(9, 102, 9);
+}
+
+@media screen and (min-width: 700px) {
+  .register {
+    margin-left: 25rem;
+  }
+}

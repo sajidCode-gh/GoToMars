@@ -14,10 +14,14 @@ export const Header = () => {
     music ? audRef.current.play() : audRef.current.pause();
   }, [music]);
 
+  const handleMenu = () => {
+    setMenu(!menu);
+  };
+
   return (
     <div className="header container">
       <header>
-        <div className="logo" onClick={() => setMenu(!menu)}>
+        <div className="logo" onClick={handleMenu}>
           <div className="menu-icon active">
             <div className="menu-bar"></div>
           </div>
@@ -26,13 +30,13 @@ export const Header = () => {
 
         <nav className={menu ? "active" : ""}>
           <ul className="nav-list">
-            <li className="list-item">
+            <li className="list-item" onClick={handleMenu}>
               <NavLink to="GoToMars">01 HOME</NavLink>
             </li>
-            <li className="list-item">
+            <li className="list-item" onClick={handleMenu}>
               <NavLink to="/flights">02 FLIGHT</NavLink>
             </li>
-            <li className="list-item">
+            <li className="list-item" onClick={handleMenu}>
               <NavLink to="/bookATrip">03 BOOK TICKET</NavLink>
             </li>
           </ul>

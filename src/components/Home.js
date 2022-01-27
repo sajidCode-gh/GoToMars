@@ -2,7 +2,8 @@ import React from "react";
 import { Header } from "./reusable-components/Header";
 import "./home.css";
 import { Link } from "react-router-dom";
-export const Home = () => {
+export const Home = ({ animationPage }) => {
+  console.log(animationPage);
   return (
     <div className="home">
       <div className="home-content container">
