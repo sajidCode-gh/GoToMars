@@ -26,6 +26,7 @@
 
 .home-content .btn {
   margin: 1rem;
+  margin-bottom: 2rem;
 }
 
 .circles,
@@ -34,12 +35,13 @@
   border-radius: 50%;
   transform-style: preserve-3d;
 
+  transform: scaleZ(2);
   border: 2px solid var(--clr-white2);
 }
 
 .circles {
   animation: circles 2s infinite linear;
-  bottom: 10rem;
+  bottom: 8rem;
   left: 50%;
   width: 150px;
   height: 150px;

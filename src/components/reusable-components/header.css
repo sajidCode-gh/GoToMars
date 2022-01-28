@@ -78,6 +78,7 @@ nav {
   transition: all 200ms ease-in-out;
   position: relative;
   left: -120%;
+  z-index: 10;
 }
 
 nav.active {
