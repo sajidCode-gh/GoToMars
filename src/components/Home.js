@@ -10,15 +10,13 @@ export const Home = ({ animationPage }) => {
         <div className="home-text">
           <h1 className="home-title">Introduction</h1>
           <p className="home-para1">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Accusantium enim alias esse neque sunt quaerat iure facere magnam
-            repellat molestiae ducimus, pariatur vel facilis? Facilis laudantium
-            deserunt ut nulla maiores?
+            The scientific reasons for going to Mars can be summarised by the
+            search for life, understanding the surface and the planet's
+            evolution, and preparing for future human exploration.
           </p>
           <p className="home-para2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos alias
-            tempore dolor vitae ea, totam consectetur voluptas a distinctio
-            dolorem!
+            Understanding whether life existed elsewhere in the Universe beyond
+            Earth is a fundamental question of humankind.
           </p>
         </div>
         <Link to="/BookATrip" className="btn">
