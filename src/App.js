@@ -13,8 +13,8 @@ function App() {
 
   return (
     <div className="wrapper">
+      <FollowCursor />
       <BrowserRouter>
-        <FollowCursor />
         <Header />
         <Routes>
           <Route path="GoToMars" element={<Home />} />
