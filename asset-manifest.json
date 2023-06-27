@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/GoToMars/static/css/main.f5fcfb23.chunk.css",
-    "main.js": "/GoToMars/static/js/main.0861a7ac.chunk.js",
-    "main.js.map": "/GoToMars/static/js/main.0861a7ac.chunk.js.map",
+    "main.js": "/GoToMars/static/js/main.77e0edd9.chunk.js",
+    "main.js.map": "/GoToMars/static/js/main.77e0edd9.chunk.js.map",
     "runtime-main.js": "/GoToMars/static/js/runtime-main.150d0cb5.js",
     "runtime-main.js.map": "/GoToMars/static/js/runtime-main.150d0cb5.js.map",
-    "static/js/2.633209dc.chunk.js": "/GoToMars/static/js/2.633209dc.chunk.js",
-    "static/js/2.633209dc.chunk.js.map": "/GoToMars/static/js/2.633209dc.chunk.js.map",
+    "static/js/2.fd4b45b4.chunk.js": "/GoToMars/static/js/2.fd4b45b4.chunk.js",
+    "static/js/2.fd4b45b4.chunk.js.map": "/GoToMars/static/js/2.fd4b45b4.chunk.js.map",
     "index.html": "/GoToMars/index.html",
     "static/css/main.f5fcfb23.chunk.css.map": "/GoToMars/static/css/main.f5fcfb23.chunk.css.map",
-    "static/js/2.633209dc.chunk.js.LICENSE.txt": "/GoToMars/static/js/2.633209dc.chunk.js.LICENSE.txt",
+    "static/js/2.fd4b45b4.chunk.js.LICENSE.txt": "/GoToMars/static/js/2.fd4b45b4.chunk.js.LICENSE.txt",
     "static/media/book-a-trip.css": "/GoToMars/static/media/bookFlight.7b498278.jpg",
     "static/media/flight.css": "/GoToMars/static/media/flights.5561aedb.jpg",
     "static/media/home.css": "/GoToMars/static/media/home (1).5d9bb593.jpg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.150d0cb5.js",
-    "static/js/2.633209dc.chunk.js",
+    "static/js/2.fd4b45b4.chunk.js",
     "static/css/main.f5fcfb23.chunk.css",
-    "static/js/main.0861a7ac.chunk.js"
+    "static/js/main.77e0edd9.chunk.js"
   ]
 }
